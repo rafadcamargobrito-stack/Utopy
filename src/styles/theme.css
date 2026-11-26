@@ -157,3 +157,5 @@ main:focus{outline:none}
 .search input{min-width:0;flex:1}
 @media(max-width:900px){.community-layout{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:600px){.activity-section h2{font-size:clamp(20px,6.5vw,27px);line-height:1.2}}
+.proposal-row>*{min-width:0}
+@media(max-width:700px){.proposal-row{grid-template-columns:minmax(0,1fr)}.status-path{flex-wrap:wrap;overflow:visible}}
