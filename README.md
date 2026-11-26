@@ -43,6 +43,7 @@ Abra o frontend em `http://localhost:5173` e a API em `http://localhost:8000/doc
 - Frontend: GitHub Pages, publicado por `.github/workflows/deploy-pages.yml`.
 - API: Render, configurado pelo `render.yaml`.
 - Banco: PostgreSQL no Supabase. Use a URL de conexão PostgreSQL do Supabase como `DATABASE_URL` no serviço Render; credenciais ficam somente nas configurações do serviço, nunca no repositório.
+- No Render, `scripts/seed_demo_content.py` cria de forma idempotente conteúdo fictício para o protótipo. O script não cria conta administrativa nem usa credenciais de demonstração.
 
 Para publicar:
 

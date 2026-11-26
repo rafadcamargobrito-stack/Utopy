@@ -1,0 +1,9 @@
+tipo;categoria;descricao;valor_brl;observacao
+Receita;Tributos municipais;Exemplo fictício de arrecadação;12300000;Dado acadêmico sem vínculo com município real
+Receita;Transferências;Exemplo fictício de transferências;36400000;Dado acadêmico sem vínculo com município real
+Despesa;Saúde;Exemplo fictício de despesas em saúde;14500000;Dado acadêmico sem vínculo com município real
+Despesa;Educação;Exemplo fictício de despesas em educação;12200000;Dado acadêmico sem vínculo com município real
+Despesa;Serviços públicos;Exemplo fictício de outras despesas;14500000;Dado acadêmico sem vínculo com município real
+Investimento;Infraestrutura;Exemplo fictício de investimento;4100000;Dado acadêmico sem vínculo com município real
+Investimento;Saúde;Exemplo fictício de investimento;2800000;Dado acadêmico sem vínculo com município real
+Investimento;Educação;Exemplo fictício de investimento;1700000;Dado acadêmico sem vínculo com município real
