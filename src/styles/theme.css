@@ -151,3 +151,9 @@ main:focus{outline:none}
   .role-user-identity,.official-role-fields{grid-column:1}
   .official-role-fields{grid-template-columns:1fr}
 }
+
+.community-layout{grid-template-columns:minmax(0,1fr) 310px}
+.community-layout>*{min-width:0}
+.search input{min-width:0;flex:1}
+@media(max-width:900px){.community-layout{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){.activity-section h2{font-size:clamp(20px,6.5vw,27px);line-height:1.2}}
