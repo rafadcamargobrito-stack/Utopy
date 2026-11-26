@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+backend/.venv/
+backend/utopy.db
+backend/utopy.db-*
+backend/**/__pycache__/
+__pycache__/
+*.py[cod]
